@@ -55,7 +55,7 @@ rando_N_of_locs = [];
 for i = 1:length(mol_list2);
         
     r = [];
-    r = randi([0,1e6],1,1);
+    r = randi([1,1e6],1,1);
     rando_N_of_locs(i,1) = cdf1(r);
     
 end
@@ -83,7 +83,7 @@ for i = 1:length(mol_list2);           % for all molecules
                         for k = 1:length(sim_locs(:,1));
         
                         r = [];
-                        r = randi([0,1e6],1,4);
+                        r = randi([1,1e6],1,4);
                         rando_N(k,1:4) = cdf1(r);
 
                         end
