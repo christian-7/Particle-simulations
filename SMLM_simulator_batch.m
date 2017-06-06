@@ -60,7 +60,7 @@ for i = 1:length(mol_list2);
     
 end
 
-tic
+% tic
 
 rng('shuffle')
 
@@ -109,7 +109,7 @@ sim_line(:,2) = all_sim_y;
 sim_line(:,3) = all_sim_photons;
 sim_line(:,4) = all_sim_frame;
 
-fprintf(' -- Simulation done after %f sec -- \n',toc)
+% fprintf(' -- Simulation done after %f sec -- \n',toc)
 
 end
 
